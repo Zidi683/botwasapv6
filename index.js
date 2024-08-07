@@ -34,9 +34,9 @@ const ffmpeg = require('fluent-ffmpeg')
 const ms = require('parse-ms')
 const toMs = require('ms')
 const path = require('path')
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = require('923414047467-923414047467')
 const cd = 4.32e+7
-const { ind } = require('./language')
+const { ind } = require('./English')
 
 
 /*[-- Load setting --]*/
@@ -52,7 +52,7 @@ const {
 } = settingan
 
 /*[-- manual load --]*/
-const ownerNumber = `${owner}@s.whatsapp.net`
+const ownerNumber = `$923414047467@s.whatsapp.net`
 prefix = BotPrefix
 blocked = []   
 
@@ -106,7 +106,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Admin akuuuu\n' 
             + `ORG: Pengembang bot;\n`
-            + `TEL;type=CELL;type=VOICE;waid=${owner}:${PhoneNumber('+' + owner).getNumber('international')}\n` 
+            + `TEL;type=CELL;type=VOICE;waid=${malik}:${923414047467('+' + owner).getNumber('international')}\n` 
             + 'END:VCARD' 
 
        
